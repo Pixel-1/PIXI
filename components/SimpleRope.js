@@ -1,6 +1,6 @@
 import { SimpleRope as PixiSimpleRope } from '@pixi/mesh-extras';
-import invariant from '../utils/invariant';
-import { getTextureFromProps, applyDefaultProps } from '../utils/props';
+import invariant from '../utils/invariant.js';
+import { getTextureFromProps, applyDefaultProps } from '../utils/props.js';
 
 const SimpleRope = (root, props) =>
 {

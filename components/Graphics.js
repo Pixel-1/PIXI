@@ -1,6 +1,6 @@
 import { Graphics as PixiGraphics } from '@pixi/graphics';
-import { applyDefaultProps } from '../utils/props';
-import invariant from '../utils/invariant';
+import { applyDefaultProps } from '../utils/props.js';
+import invariant from '../utils/invariant.js';
 
 const Graphics = (root, { geometry }) =>
 {

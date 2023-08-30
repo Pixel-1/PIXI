@@ -1,5 +1,5 @@
 import { NineSlicePlane as PixiNineSlicePlane } from '@pixi/mesh-extras';
-import { getTextureFromProps, applyDefaultProps } from '../utils/props';
+import { getTextureFromProps, applyDefaultProps } from '../utils/props.js';
 
 const NineSlicePlane = (root, props) =>
 {

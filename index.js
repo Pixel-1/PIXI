@@ -1,4 +1,4 @@
-import { TYPES } from './utils/element';
+import { TYPES } from './utils/element.js';
 
 /**
  * -------------------------------------------
@@ -6,7 +6,7 @@ import { TYPES } from './utils/element';
  * -------------------------------------------
  */
 
-export * from './exports';
+export * from './exports.js';
 
 export const BitmapText = TYPES.BitmapText;
 export const Container = TYPES.Container;
